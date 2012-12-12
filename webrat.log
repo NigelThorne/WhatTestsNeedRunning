@@ -1,0 +1,62 @@
+# Logfile created on 2012-12-12 21:21:39 +1100 by logger.rb/31641
+D, [2012-12-12T21:21:39.083974 #21104] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T21:22:05.419259 #21113] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T21:23:14.682768 #21124] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T21:28:27.709924 #21154] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T21:55:38.103657 #21323] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T21:56:29.396828 #21332] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T21:57:03.313736 #21341] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T21:57:30.648984 #21349] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T21:58:54.073996 #21361] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T22:02:43.105489 #21411] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T22:03:57.908323 #21423] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T22:06:24.135475 #21445] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T22:12:18.539799 #21516] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T22:12:56.842254 #21525] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T22:12:56.916266 #21525] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T22:17:12.091974 #21549] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T22:17:13.018391 #21549] DEBUG -- : REQUESTING PAGE: GET http://localhost:3333/pending with {} and HTTP headers {}
+D, [2012-12-12T22:23:23.883146 #21649] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T22:23:24.814616 #21649] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"1", "name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T22:23:24.868981 #21649] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"2", "name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:23:24.874628 #21649] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:32:43.617985 #21789] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T22:32:43.683786 #21789] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"1", "name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T22:32:43.687502 #21789] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"2", "name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:32:43.692686 #21789] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:33:56.656834 #21799] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T22:33:56.723078 #21799] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"1", "name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T22:33:56.726786 #21799] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"2", "name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:33:56.731919 #21799] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:37:27.290282 #21818] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T22:37:27.356433 #21818] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"1", "name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T22:37:27.360082 #21818] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"2", "name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:37:27.365215 #21818] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:41:25.673143 #21839] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T22:41:25.736496 #21839] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"1", "name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T22:41:25.740208 #21839] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"2", "name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:41:25.745306 #21839] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:45:25.966011 #21862] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T22:45:26.029513 #21862] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"1", "name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T22:45:26.033221 #21862] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"2", "name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:45:26.038243 #21862] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:46:20.274616 #21871] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T22:46:20.338133 #21871] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"1", "name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T22:46:20.341810 #21871] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"2", "name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:46:20.346957 #21871] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:46:45.587507 #21880] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T22:46:45.650972 #21880] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"1", "name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T22:46:45.654975 #21880] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"2", "name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:46:45.660147 #21880] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:50:20.570833 #21901] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T22:50:20.636063 #21901] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"1", "name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T22:50:20.639794 #21901] DEBUG -- : REQUESTING PAGE: POST /add_job with {"id"=>"2", "name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T22:50:20.644887 #21901] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add_job"}
+D, [2012-12-12T23:09:27.560797 #22162] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T23:09:27.625169 #22162] DEBUG -- : REQUESTING PAGE: POST /add with {"name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T23:09:27.628995 #22162] DEBUG -- : REQUESTING PAGE: POST /add with {"name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add"}
+D, [2012-12-12T23:09:27.633461 #22162] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add"}
+D, [2012-12-12T23:13:08.277516 #22196] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T23:13:08.345145 #22196] DEBUG -- : REQUESTING PAGE: POST /add with {"name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T23:13:08.348969 #22196] DEBUG -- : REQUESTING PAGE: POST /add with {"name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add"}
+D, [2012-12-12T23:13:08.353410 #22196] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add"}
