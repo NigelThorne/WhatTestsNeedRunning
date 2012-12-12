@@ -60,3 +60,11 @@ D, [2012-12-12T23:13:08.277516 #22196] DEBUG -- : REQUESTING PAGE: GET /pending 
 D, [2012-12-12T23:13:08.345145 #22196] DEBUG -- : REQUESTING PAGE: POST /add with {"name"=>"test1", "environment"=>"app1"} and HTTP headers {}
 D, [2012-12-12T23:13:08.348969 #22196] DEBUG -- : REQUESTING PAGE: POST /add with {"name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/add"}
 D, [2012-12-12T23:13:08.353410 #22196] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/add"}
+D, [2012-12-12T23:49:31.668645 #22644] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T23:49:31.717239 #22644] DEBUG -- : REQUESTING PAGE: POST /tests with {"name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T23:49:31.721056 #22644] DEBUG -- : REQUESTING PAGE: POST /tests with {"name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/tests"}
+D, [2012-12-12T23:49:31.725541 #22644] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/tests"}
+D, [2012-12-12T23:50:30.089007 #22651] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {}
+D, [2012-12-12T23:50:30.153895 #22651] DEBUG -- : REQUESTING PAGE: POST /tests with {"name"=>"test1", "environment"=>"app1"} and HTTP headers {}
+D, [2012-12-12T23:50:30.157674 #22651] DEBUG -- : REQUESTING PAGE: POST /tests with {"name"=>"test2", "environment"=>"app2"} and HTTP headers {"HTTP_REFERER"=>"/tests"}
+D, [2012-12-12T23:50:30.162106 #22651] DEBUG -- : REQUESTING PAGE: GET /pending with {} and HTTP headers {"HTTP_REFERER"=>"/tests"}

@@ -7,23 +7,23 @@ When /^I request a list of work$/ do
 end
 
 Then /^the list is empty$/ do
-  response_body.should have_selector("items") do |items|
-  	items.should_not have_selector("item")
+  response_body.should have_selector("tests") do |items|
+  	items.should_not have_selector("test")
   end
 end
 
 Given /^the following work items exist:$/ do |table|
   # table is a Cucumber::Ast::Table
   table.hashes.each do |hash|
-  	  visit "/add", :post, hash	
+  	  visit "/tests", :post, hash	
   end
 end
 
 Then /^the list shows the work items:$/ do |table|
   # table is a Cucumber::Ast::Table
-  response_body.should have_selector("items") do |items|
+  response_body.should have_selector("tests") do |items|
   	table.hashes.each do |hash|
-  		items.should have_selector("item[id='#{hash[:id]}']") do |item|
+  		items.should have_selector("test[id='#{hash[:id]}']") do |item|
   			item.should contain(hash[:name])
   		end
   	end
