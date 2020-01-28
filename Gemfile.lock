@@ -33,8 +33,8 @@ GEM
     net-http-persistent (2.8)
     nokogiri (1.5.5)
     ntlm-http (0.1.1)
-    rack (1.4.1)
-    rack-protection (1.2.0)
+    rack (1.6.12)
+    rack-protection (1.5.5)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
