@@ -12,7 +12,7 @@ group :development do
   gem "rdoc", "~> 6.2"
   gem "cucumber", ">= 0"
   gem "bundler", "~> 1.2.1"
-  gem "jeweler", "~> 1.8.4"
+  gem "jeweler", "~> 2.3.9"
   gem "simplecov", ">= 0"
   gem "webrat", ">= 0"
   gem "mechanize", ">=0"
